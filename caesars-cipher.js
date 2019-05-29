@@ -4,7 +4,9 @@ function rot13(str) { //LBH QVQ VG!
   // split the string into an array
   return str.split('')
   // loop through the characters for the .length of the string
-  // ,map?
+for (var i = 0; i < str.length; i++) {
+
+}
     // for each alphabetic character, grab the charcode
 
 // expected output: Array [2, 8, 18, 32]
@@ -13,7 +15,7 @@ function rot13(str) { //LBH QVQ VG!
       // conert the new charcode to character
 
       // add character to new string
-      
+
     //  else return the original character
     }
 
@@ -23,10 +25,12 @@ function rot13(str) { //LBH QVQ VG!
 //Change the inputs below to test
 rot13("SERR PBIR PNZC");
 
-// Split str into a character array
-      return str.split('')
 
 //uppercase alphabet = CharCode 65 - 90
 //CharCode Conversion:
 //  65-77 (+13)
 //  78-90 (-13)
+
+
+    // Change the inputs below to test
+    rot13("LBH QVQ VG!");
