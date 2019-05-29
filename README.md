@@ -8,7 +8,7 @@ Return true if the given string is a palindrome. Otherwise, return false.
 
 > A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
 
-Testing:
+**Testing:**
 * palindrome("eye") should return a boolean.
 * palindrome("eye") should return true.
 * palindrome("_eye") should return true.
@@ -28,7 +28,7 @@ Testing:
 ### Roman Numeral Converter
 Convert the given number consisting of Arabic numerals into Roman numerals.
 
-Testing:
+**Testing:**
 * convertToRoman(2) should return "II"
 * convertToRoman(3) should return "III"
 * convertToRoman(4) should return "IV"
