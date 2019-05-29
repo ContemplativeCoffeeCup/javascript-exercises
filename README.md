@@ -23,7 +23,7 @@ Return true if the given string is a palindrome. Otherwise, return false.
 * palindrome("0_0 (: /-\ :) 0-0") should return true.
 * palindrome("five|\_/|four") should return false.
 
-
+---
 
 ### Roman Numeral Converter
 Convert the given number consisting of Arabic numerals into Roman numerals.
