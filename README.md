@@ -71,3 +71,19 @@ My task was to write a function which takes a ROT13 encoded string as input and 
 * rot13("SERR CVMMN!") should decode to FREE PIZZA!
 * rot13("SERR YBIR?") should decode to FREE LOVE?
 * rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.") should decode to THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.
+
+---
+
+### Telephone Number Validator
+Return true if the passed string looks like a valid US phone number.
+
+The user may fill out the form field any way they choose as long as it has the format of a valid US number. The following are examples of valid formats for US numbers (refer to the tests below for other variants):
+
+555-555-5555
+(555)555-5555
+(555) 555-5555
+555 555 5555
+5555555555
+1 555 555 5555
+
+Validate or reject the US phone number based on any combination of the formats provided above. The area code is required. If the country code is provided, I must confirm that the country code is 1. Return true if the string is a valid US phone number; otherwise return false.
